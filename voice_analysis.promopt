@@ -1,0 +1,346 @@
+podcast_audio_features.prompt
+-----------------------------
+
+## 0. Audio feature analysis overview
+
+Goal:
+Analyze a single podcast audio file (MP3) and extract audio-based features over fixed 5-second windows:
+
+- RMS energy / loudness
+- Pitch statistics
+- Speaking rate (words per second) based on transcript timing
+- (Optional) overlap / interruptions if diarization is used
+- “Fired” segments: windows with unusually high energy + speaking rate
+- Distributions and timeline plots of these features
+
+Assumptions:
+- Language: Python
+- Input file: data/raw/podcast.mp3
+- Output: CSV files + plots (PNG)
+
+--------------------------------------------------
+## 1. Environment and project skeleton (audio part)
+--------------------------------------------------
+
+[ ] 1.1. Create project folder structure (audio-related parts)
+
+- podcast_analysis/
+  - data/
+    - raw/
+      - podcast.mp3
+    - processed/
+      - podcast_16k_mono.wav
+  - outputs/
+    - audio_features/
+  - src/
+    - config.py
+    - audio_preprocess.py
+    - asr_transcript.py
+    - audio_features.py
+    - visualization.py
+    - run_audio_pipeline.py
+
+[ ] 1.2. Set up Python environment
+
+Create virtual environment and install:
+
+- numpy
+- pandas
+- matplotlib
+- tqdm
+- librosa
+- pydub
+- openai-whisper OR faster-whisper (for ASR)
+- (Optional) pyannote.audio if you want diarization later
+
+System requirement:
+- Install ffmpeg on the OS (so pydub and whisper can use it).
+
+[ ] 1.3. Create config.py
+
+Define constants:
+
+- AUDIO_RAW_PATH = "data/raw/podcast.mp3"
+- AUDIO_WAV_PATH = "data/processed/podcast_16k_mono.wav"
+- SAMPLE_RATE = 16000
+- WINDOW_SIZE_SEC = 5.0
+- AUDIO_FEATURES_CSV = "outputs/audio_features/audio_features_5s_windows.csv"
+- AUDIO_FEATURES_FIRED_CSV = "outputs/audio_features/audio_features_5s_windows_with_fired.csv"
+- FIRED_Z_THRESHOLD = 2.0  # example threshold
+
+------------------------------------------
+## 2. Audio preprocessing (MP3 -> WAV mono)
+------------------------------------------
+
+[ ] 2.1. Implement convert_to_mono_wav in audio_preprocess.py
+
+Tasks:
+- Load data/raw/podcast.mp3 using pydub.AudioSegment
+- Convert to mono (1 channel)
+- Resample to SAMPLE_RATE (e.g., 16kHz)
+- Export as data/processed/podcast_16k_mono.wav
+
+Checks:
+- Print final sample rate and channels to confirm.
+- Print total duration in seconds/minutes.
+
+----------------------------------------------
+## 3. Generate transcript with timestamps (ASR)
+----------------------------------------------
+
+Note: This transcript is needed for speaking-rate calculations. Text analysis details will be in the second prompt file.
+
+[ ] 3.1. Implement ASR in asr_transcript.py
+
+Tasks:
+- Use openai-whisper or faster-whisper to transcribe podcast_16k_mono.wav
+- Enable timestamps per segment and (if possible) per word
+
+Inputs:
+- data/processed/podcast_16k_mono.wav
+
+Outputs:
+- outputs/audio_features/transcript_segments_for_audio.json
+
+Structure for each segment (example):
+- {
+    "start": float,        # seconds
+    "end": float,          # seconds
+    "text": string,
+    "words": [
+      {"start": float, "end": float, "word": string},
+      ...
+    ]
+  }
+
+Check:
+- Count number of segments and a few sample entries.
+
+---------------------------------------------------
+## 4. 5-second window creation and basic statistics
+---------------------------------------------------
+
+[ ] 4.1. Implement window generation in audio_features.py
+
+Tasks:
+- Load WAV file via librosa.load with sr=SAMPLE_RATE
+- Compute total_duration = len(y) / SAMPLE_RATE
+- Generate non-overlapping windows of WINDOW_SIZE_SEC (5 seconds):
+  - window_id = 0, 1, 2, ...
+  - start_sec = window_id * WINDOW_SIZE_SEC
+  - end_sec = min((window_id + 1) * WINDOW_SIZE_SEC, total_duration)
+
+Represent each window as a Python dict:
+- {
+    "window_id": i,
+    "start_sec": ...,
+    "end_sec": ...
+  }
+
+Check:
+- Count number of windows and verify last end_sec ≈ total_duration.
+
+-----------------------------------------
+## 5. Compute RMS energy per 5-second window
+-----------------------------------------
+
+[ ] 5.1. Implement compute_rms_energy_for_window
+
+Tasks:
+- For each window:
+  - Convert start_sec and end_sec to sample indices:
+    - start_idx = int(start_sec * SAMPLE_RATE)
+    - end_idx = int(end_sec * SAMPLE_RATE)
+  - Slice y[start_idx:end_idx]
+  - Compute RMS:
+    - rms = sqrt(mean(y_window ** 2))
+  - Store rms_energy in the window data.
+
+Check:
+- Verify RMS values are positive and reasonable.
+- Print mean and standard deviation of RMS over all windows.
+
+-----------------------------------
+## 6. Compute pitch statistics per window
+-----------------------------------
+
+[ ] 6.1. Implement pitch extraction using librosa
+
+Tasks:
+- For each window, use librosa.pyin or another F0 estimation method:
+  - f0, voiced_flag, voiced_probs = librosa.pyin(...)
+- Filter out unvoiced frames using voiced_flag
+- Compute:
+  - pitch_mean
+  - pitch_std
+- Attach pitch_mean and pitch_std to each window
+
+Check:
+- Log average pitch_mean across all windows
+- Inspect a few windows manually.
+
+------------------------------------------------------
+## 7. Compute speaking rate (words per 5-second window)
+------------------------------------------------------
+
+[ ] 7.1. Map ASR word timestamps to windows
+
+Tasks:
+- Load transcript_segments_for_audio.json
+- For each word with start time t_word:
+  - Find corresponding window_id:
+    - window_id = int(t_word // WINDOW_SIZE_SEC)
+- Count words per window:
+  - word_count_5s
+
+[ ] 7.2. Compute speaking rate metrics
+
+Tasks:
+- For each window:
+  - duration = end_sec - start_sec
+  - wps_5s = word_count_5s / duration
+  - wpm_5s = wps_5s * 60.0 (optional)
+
+Attach:
+- word_count_5s
+- wps_5s
+- wpm_5s (if desired)
+
+Check:
+- Print average and max wps_5s across all windows.
+
+-------------------------------------------------------------
+## 8. (Optional) Overlap / interruptions using diarization
+-------------------------------------------------------------
+
+This part is optional and can be skipped initially.
+
+[ ] 8.1. Implement diarization (optional)
+
+Tasks:
+- Use pyannote.audio to run diarization on podcast_16k_mono.wav
+- Obtain list of speaker segments:
+  - { "speaker": "SPEAKER_00", "start": ..., "end": ... }
+
+[ ] 8.2. Compute overlap per 5-second window
+
+Tasks:
+- For each window:
+  - For each pair of speakers:
+    - Compute intersection duration where both are speaking within this window.
+  - Sum up all overlapping durations -> overlap_duration
+
+Attach:
+- overlap_duration to each window.
+
+Check:
+- Inspect windows with highest overlap_duration.
+
+---------------------------------------
+## 9. Build feature table and save to CSV
+---------------------------------------
+
+[ ] 9.1. Create pandas DataFrame
+
+Columns per row (per window):
+- window_id
+- start_sec
+- end_sec
+- rms_energy
+- pitch_mean
+- pitch_std
+- word_count_5s
+- wps_5s
+- wpm_5s (optional)
+- overlap_duration (optional)
+
+[ ] 9.2. Save CSV
+
+- Save DataFrame as:
+  - outputs/audio_features/audio_features_5s_windows.csv
+
+Check:
+- Load CSV once and verify contents.
+
+----------------------------------------
+## 10. Detect “fired” segments from features
+----------------------------------------
+
+[ ] 10.1. Compute z-scores for key features
+
+Tasks:
+- For rms_energy and wps_5s:
+  - Compute mean and std for each.
+  - Compute z_rms = (rms_energy - mean_rms) / std_rms
+  - Compute z_wps = (wps_5s - mean_wps) / std_wps
+
+Attach:
+- z_rms
+- z_wps
+
+[ ] 10.2. Define fired_score and fired flag
+
+Tasks:
+- fired_score = z_rms + z_wps
+- is_fired = fired_score > FIRED_Z_THRESHOLD  (or top X% rule)
+
+Attach:
+- fired_score
+- is_fired (boolean)
+
+[ ] 10.3. Save updated CSV
+
+- outputs/audio_features/audio_features_5s_windows_with_fired.csv
+
+Check:
+- Count number of windows with is_fired = True
+- Spot check a few fired windows (later with audio playback if desired).
+
+-----------------------------------
+## 11. Plot distributions and timelines
+-----------------------------------
+
+[ ] 11.1. Implement plotting in visualization.py
+
+Tasks:
+- Plot histogram of wps_5s:
+  - Save to outputs/audio_features/wps_distribution.png
+- Plot histogram of rms_energy:
+  - Save to outputs/audio_features/rms_distribution.png
+- Plot time-series:
+  - x-axis = window_id (or start_sec)
+  - y-axis = wps_5s and/or rms_energy
+  - Highlight fired windows (e.g., different marker or vertical lines)
+  - Save to outputs/audio_features/fired_timeline.png
+
+[ ] 11.2. Sanity check plots
+
+Tasks:
+- Open plots and visually inspect:
+  - Distribution shapes
+  - Locations of fired segments
+- Adjust FIRED_Z_THRESHOLD if needed.
+
+--------------------------------------
+## 12. Run the audio pipeline end-to-end
+--------------------------------------
+
+[ ] 12.1. Implement run_audio_pipeline.py
+
+Steps:
+- Step 1: Convert MP3 to mono WAV (if not already done)
+- Step 2: Run ASR to get transcript with timestamps (for words)
+- Step 3: Generate 5-second windows
+- Step 4: Compute RMS energy per window
+- Step 5: Compute pitch stats per window
+- Step 6: Compute word-based speaking rate per window
+- Step 7: (Optional) compute overlap using diarization
+- Step 8: Build DataFrame and save base CSV
+- Step 9: Compute z-scores, fired_score, is_fired, save updated CSV
+- Step 10: Generate and save plots
+
+[ ] 12.2. Final manual inspection
+
+- Verify audio_features_5s_windows_with_fired.csv looks correct.
+- Verify plots look reasonable.
+- Note any edge cases (e.g., trailing short window, silent parts).
