@@ -72,7 +72,7 @@ Define constants:
 ## 2. Audio preprocessing (MP3 -> WAV mono)
 ------------------------------------------
 
-[ ] 2.1. Implement convert_to_mono_wav in audio_preprocess.py
+[✅] 2.1. Implement convert_to_mono_wav in audio_preprocess.py
 
 Tasks:
 - Load data/raw/podcast.mp3 using pydub.AudioSegment

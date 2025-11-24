@@ -21,6 +21,12 @@ scipy>=1.10.0
 soundfile>=0.12.1
 ffmpeg-python>=0.2.0
 
+# FFmpeg support for audio processing
+imageio-ffmpeg>=0.4.8
+
+# Audio metadata handling
+mutagen>=1.47.0
+
 # Development and testing
 pytest>=7.4.0
 jupyter>=1.0.0

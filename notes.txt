@@ -1,0 +1,5 @@
+1. convert to mono to reduce noise (side noise that aint speaking)
+2. Resample to 16 kHz - Whisper works well with 16kHz
+3. Wav - uncompressed format of the file.
+
+Take MP3 → Make it one clean channel → Make it the correct quality → Save it as a clean WAV for analysis
