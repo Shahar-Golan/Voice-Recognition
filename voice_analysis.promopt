@@ -22,7 +22,7 @@ Assumptions:
 ## 1. Environment and project skeleton (audio part)
 --------------------------------------------------
 
-[ ] 1.1. Create project folder structure (audio-related parts)
+[✅] 1.1. Create project folder structure (audio-related parts)
 
 - podcast_analysis/
   - data/
@@ -40,7 +40,7 @@ Assumptions:
     - visualization.py
     - run_audio_pipeline.py
 
-[ ] 1.2. Set up Python environment
+[✅] 1.2. Set up Python environment
 
 Create virtual environment and install:
 
@@ -56,7 +56,7 @@ Create virtual environment and install:
 System requirement:
 - Install ffmpeg on the OS (so pydub and whisper can use it).
 
-[ ] 1.3. Create config.py
+[✅] 1.3. Create config.py
 
 Define constants:
 

@@ -1,0 +1,26 @@
+# Core data science libraries
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+tqdm>=4.65.0
+
+# Audio processing libraries
+librosa>=0.10.0
+pydub>=0.25.1
+
+# Speech recognition and transcription
+openai-whisper>=20231117
+# Alternative: faster-whisper>=0.10.0
+
+# Optional: Speaker diarization (uncomment if needed)
+# pyannote.audio>=3.1.0
+# torch>=2.0.0
+
+# Additional useful libraries
+scipy>=1.10.0
+soundfile>=0.12.1
+ffmpeg-python>=0.2.0
+
+# Development and testing
+pytest>=7.4.0
+jupyter>=1.0.0
