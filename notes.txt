@@ -3,3 +3,10 @@
 3. Wav - uncompressed format of the file.
 
 Take MP3 → Make it one clean channel → Make it the correct quality → Save it as a clean WAV for analysis
+
+The process to make it ASR took 20 min aprrox for a 3 hour file.
+
+You run:
+ASR → transcription
+Diarization → speaker timestamps
+Then you merge the two.

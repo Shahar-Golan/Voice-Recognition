@@ -90,7 +90,7 @@ Checks:
 
 Note: This transcript is needed for speaking-rate calculations. Text analysis details will be in the second prompt file.
 
-[ ] 3.1. Implement ASR in asr_transcript.py
+[✅] 3.1. Implement ASR in asr_transcript.py
 
 Tasks:
 - Use openai-whisper or faster-whisper to transcribe podcast_16k_mono.wav
