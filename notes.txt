@@ -15,3 +15,6 @@ chopping the audio into short windows (e.g., ~2–5 seconds).
 passing them through a neural network to detect speech / generate speaker embeddings.
 clustering those embeddings into speakers (S0, S1, …).
 merging adjacent regions from the same speaker.
+
+Donald Trump: 3425 segments
+Joe Rogan: 1095 segments
