@@ -1,0 +1,19 @@
+{
+  "audio_file": "data/processed/podcast_16k_mono.wav",
+  "speakers": {
+    "Donald Trump": {
+      "total_speaking_time_sec": 6736.280000000023,
+      "total_words": 27337,
+      "num_segments": 3079,
+      "total_speaking_time_min": 112.27133333333373,
+      "words_per_minute": 243.49047248629722
+    },
+    "Joe Rogan": {
+      "total_speaking_time_sec": 2568.5800000000145,
+      "total_words": 9323,
+      "num_segments": 836,
+      "total_speaking_time_min": 42.80966666666691,
+      "words_per_minute": 217.77791620272558
+    }
+  }
+}
