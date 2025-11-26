@@ -18,3 +18,7 @@ merging adjacent regions from the same speaker.
 
 Donald Trump: 3425 segments
 Joe Rogan: 1095 segments
+
+Total number of ASR segments: 4780
+Total number of words: 36062
+Language detection: EN

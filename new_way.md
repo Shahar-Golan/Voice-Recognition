@@ -104,7 +104,7 @@ Checks:
 ## 3. ASR on Full Mono Audio (No Fake A/B)
 ----------------------------------------------
 
-[ ] 3.1. Implement transcribe_podcast in asr_transcript.py
+[✅] 3.1. Implement transcribe_podcast in asr_transcript.py
 
 File: podcast_analysis/src/asr_transcript.py
 
@@ -150,7 +150,7 @@ Checks:
 ## 4. Merge Diarization + ASR into Speaker-Labeled Transcript
 ----------------------------------------------
 
-[ ] 4.1. Implement merge_diarization_and_asr in merge_speakers.py
+[✅] 4.1. Implement merge_diarization_and_asr in merge_speakers.py
 
 File: podcast_analysis/src/merge_speakers.py
 
