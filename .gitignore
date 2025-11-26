@@ -129,7 +129,7 @@ dmypy.json
 .pyre/
 
 # Project-specific ignores
-# Audio files (large)
+# Audio files (large) - exclude all audio files
 *.mp3
 *.wav
 *.flac
@@ -137,11 +137,17 @@ dmypy.json
 *.m4a
 
 # Output files that can be regenerated
-podcast_analysis/outputs/
+podcast_analysis/data/
 *.png
 *.jpg
 *.jpeg
 *.csv
+
+# Keep important analysis results - explicitly include JSON outputs
+!podcast_analysis/outputs/
+!podcast_analysis/outputs/**
+!podcast_analysis/src/
+!podcast_analysis/src/**
 
 # Model files and caches
 *.pkl

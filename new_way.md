@@ -47,7 +47,7 @@ Checks:
 Note: At this point, you already have a single mono wav:
 - data/processed/podcast_16k_mono.wav (16kHz, ~3 hours)
 
-[ ] 2.1. Implement diarize_podcast in diarization.py
+[✅] 2.1. Implement diarize_podcast in diarization.py
 
 File: podcast_analysis/src/diarization.py
 
