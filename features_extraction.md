@@ -204,7 +204,7 @@ Constants (tunable, define at top of file):
 - MIN_WORDS_INTERRUPTER = 3
 - MAX_BACKCHANNEL_DURATION_SEC = 0.6  (short overlaps under this AND short text may be ignored or marked as backchannel).
 
-[ ] 6.1. Implement detect_interruptions in analysis_speaking_features.py
+[x] 6.1. Implement detect_interruptions in analysis_speaking_features.py
 
 Function:
 - detect_interruptions(
@@ -307,7 +307,7 @@ Analyze the high-level conversation structure:
 - how often one speaker keeps the floor
 - produce simple metrics describing turn-taking dynamics.
 
-[ ] 7.1. Implement turn_taking_stats in analysis_speaking_features.py
+[x] 7.1. Implement turn_taking_stats in analysis_speaking_features.py
 
 Function:
 - turn_taking_stats(

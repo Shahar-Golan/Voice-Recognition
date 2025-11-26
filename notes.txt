@@ -22,3 +22,12 @@ Joe Rogan: 1095 segments
 Total number of ASR segments: 4780
 Total number of words: 36062
 Language detection: EN
+
+BASIC SPEAKER STATISTICS
+======================================================================
+Speaker         Time(min)  Words    WPM    Segments
+----------------------------------------------------------------------
+Donald Trump    112.3      27337    243    3079
+Joe Rogan       42.8       9323     218    836
+----------------------------------------------------------------------
+TOTAL           155.1      36660    236    3915

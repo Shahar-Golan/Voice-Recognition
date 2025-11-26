@@ -1,0 +1,38 @@
+{
+  "audio_file": "data/processed/podcast_16k_mono.wav",
+  "speakers": [
+    "Donald Trump",
+    "Joe Rogan"
+  ],
+  "transitions": {
+    "Donald Trump->Donald Trump": 1338,
+    "Donald Trump->Joe Rogan": 365,
+    "Joe Rogan->Donald Trump": 365,
+    "Joe Rogan->Joe Rogan": 78
+  },
+  "total_transitions": 2146,
+  "alternation_rate": 0.3401677539608574,
+  "runs": {
+    "Donald Trump": {
+      "num_runs": 366,
+      "avg_run_segments": 4.655737704918033,
+      "avg_run_duration_sec": 22.143142076502762,
+      "max_run_duration_sec": 281.52,
+      "max_run_segments": 58,
+      "total_speaking_time_sec": 8104.390000000011
+    },
+    "Joe Rogan": {
+      "num_runs": 365,
+      "avg_run_segments": 1.2136986301369863,
+      "avg_run_duration_sec": 7.497041095890425,
+      "max_run_duration_sec": 65.70000000000005,
+      "max_run_segments": 5,
+      "total_speaking_time_sec": 2736.420000000005
+    }
+  },
+  "merged_segments_info": {
+    "original_segments": 3915,
+    "merged_segments": 2147,
+    "merge_gap_threshold_sec": 0.5
+  }
+}
