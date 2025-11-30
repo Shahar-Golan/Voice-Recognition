@@ -149,9 +149,14 @@ podcast_analysis/data/raw/
 !podcast_analysis/outputs/**
 !podcast_analysis/src/
 !podcast_analysis/src/**
-# Keep segments folder and its contents
+# Keep segments folder and JSON metadata but exclude audio files
 !podcast_analysis/data/segments/
-!podcast_analysis/data/segments/**
+!podcast_analysis/data/segments/*.json
+# Exclude audio segment files (large files that can be regenerated)
+podcast_analysis/data/segments/audio/
+*.wav
+*.mp3
+*.flac
 
 # Model files and caches
 *.pkl
