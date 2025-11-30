@@ -136,8 +136,9 @@ dmypy.json
 *.aac
 *.m4a
 
-# Output files that can be regenerated
-podcast_analysis/data/
+# Output files that can be regenerated - exclude specific subdirectories
+podcast_analysis/data/processed/
+podcast_analysis/data/raw/
 *.png
 *.jpg
 *.jpeg
@@ -148,6 +149,7 @@ podcast_analysis/data/
 !podcast_analysis/outputs/**
 !podcast_analysis/src/
 !podcast_analysis/src/**
+# Keep segments folder and its contents
 !podcast_analysis/data/segments/
 !podcast_analysis/data/segments/**
 

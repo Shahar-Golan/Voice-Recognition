@@ -1,0 +1,1669 @@
+{
+  "target_speaker": "Joe Rogan",
+  "total_windows": 184,
+  "total_duration": 2496.990000000007,
+  "parameters": {
+    "MIN_KEEP_LEN": 1.0,
+    "MIN_WORDS": 3,
+    "MIN_FINAL_LEN": 3.0,
+    "MAX_GAP": 1.0
+  },
+  "windows": [
+    {
+      "start": 14.26,
+      "end": 39.6,
+      "duration": 25.340000000000003,
+      "text": "Good to see you. sir. Here we go. One of the things I wanted to talk to you about, I wanted to play this, but we decided we shouldn't play it because it could get copyright strike and we don't want to get the episode. Well, we don't want anybody to have any sort of way to get it down. it was the episode of you when you were on the view. And I think it was 2015 or 2006, like when when you were running for president.",
+      "word_count": 88,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0000"
+    },
+    {
+      "start": 41.39,
+      "end": 71.34,
+      "duration": 29.950000000000003,
+      "text": "you sat, you got introduced as our friend Donald Trump. We'll be Goldberg. It you a big hug and a kiss. Joy Bayhawk gives you a big hug. Barbara Walters gives you a big hug. They all loved you. They were all talking about how you're, you you might be, you might be conservative in your financial positions, but you're very liberal socially. were, they were talking about you as such a favorable light. The audience was cheering.",
+      "word_count": 78,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0001"
+    },
+    {
+      "start": 73.02,
+      "end": 78.43,
+      "duration": 5.410000000000011,
+      "text": "And then you actually started winning in the polls and then the machine started working towards you.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0002"
+    },
+    {
+      "start": 80.14,
+      "end": 98.46,
+      "duration": 18.319999999999993,
+      "text": "there's probably no one in in history that I've ever seen that's that's been attacked the way you've been attacked and and the way they've done it so coordinated. And systematically when you see those same people in the past, very very favorable to you, like Oprah when you want Oprah show, she was encouraging you.",
+      "word_count": 56,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0003"
+    },
+    {
+      "start": 256.08,
+      "end": 278.47,
+      "duration": 22.390000000000043,
+      "text": "people would talk. I mean, even if people had criticisms about you, people that didn't like you, there was always feuds and stuff like that. But the reality was the the thing turned on you when when they found out that you were going to be president. It was very coordinated. And some people are catching on to that now. There's a lot of people that were longtime Democrats like Elon and Bill Ackman and all these different very intelligent people.",
+      "word_count": 81,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0004"
+    },
+    {
+      "start": 282.15,
+      "end": 296.86,
+      "duration": 14.710000000000036,
+      "text": "What, this is what I wanted to ask you. What was it like when when you actually got in? Because nobody really can prepare you for that. When you're running for president, you don't really know what it's going to be like when you actually get into office. What was the, what did you think? you think going to be like",
+      "word_count": 61,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0005"
+    },
+    {
+      "start": 752.2,
+      "end": 766.58,
+      "duration": 14.379999999999995,
+      "text": "Everyone's aware of all this stuff. What I want to get to is like, what was the experience once you got inside? It was just what did you think it was going to be like in terms of like your ability to govern? Yeah. This is your first experience governing anything. You've never been a governor. never been a mayor.",
+      "word_count": 60,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0006"
+    },
+    {
+      "start": 825.54,
+      "end": 834.06,
+      "duration": 8.519999999999982,
+      "text": "did you expect, though, in terms of like, once you got inside, you had to appoint all all these people. How many appointments do you have to make? have actually",
+      "word_count": 30,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0007"
+    },
+    {
+      "start": 913.85,
+      "end": 919.35,
+      "duration": 5.5,
+      "text": "what did you think it was going to be like? Versus like, did you have any ideas of what it was going to be like? And what was different?",
+      "word_count": 29,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0008"
+    },
+    {
+      "start": 1170.23,
+      "end": 1178.19,
+      "duration": 7.960000000000036,
+      "text": "you're kind of stuck in a position we have to pick established people. And then the problem with established people is established people already indoctrinated into the system.",
+      "word_count": 28,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0009"
+    },
+    {
+      "start": 1241.81,
+      "end": 1247.53,
+      "duration": 5.720000000000027,
+      "text": "never do anything controversial. They never take any chances or speak to opinion that's outside of it.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0010"
+    },
+    {
+      "start": 1265.84,
+      "end": 1279.81,
+      "duration": 13.970000000000027,
+      "text": "you're in there. have 10 ,000 appointments you have to make. So you're getting advice from people. And at one point in time, did you have a moment in time where you realize, like, these are bad choices. Like, some of these people I shouldn't have had in there.",
+      "word_count": 49,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0011"
+    },
+    {
+      "start": 1342.71,
+      "end": 1346.27,
+      "duration": 3.5599999999999454,
+      "text": "people that were just bad bad advice.",
+      "word_count": 7,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0012"
+    },
+    {
+      "start": 1458.77,
+      "end": 1523.52,
+      "duration": 64.75,
+      "text": "Maybe. He said a lot of wild shit. And then CNN in their, all their brilliance by highlighting your wild shit made you much more popular. And they boost you in the polls because people were tired of someone talking talking in this this bullshit, -prepared politician, Lingo. And even if they didn't agree with you, they at least knew whoever that guy is, that's him. That's really him. When you see certain people talk, certain people in the public eye, you don't know who they are. You have no idea who they are. It's very difficult to know. You see them in conversations. They have these pre -planned answers. They say everything. It's very rehearsed. You never get to the meat of it. One of the beautiful things about you is that you free -ball. You get out and you do these huge events and and you're just talking and you're making, we've highlighted you on the show many times when when you did this Biden impression, where he's walk around, he doesn't know what he's doing. It's funny. It's, it's stand -up. It's funny stuff. But it's like you, you, you're making fun of Elon one time. You're doing an Elon impression. It's great. You have like comedic instincts. Like when you said to Hillary, you'd be in jail. Like that's great",
+      "word_count": 224,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0013"
+    },
+    {
+      "start": 1525.09,
+      "end": 1532.64,
+      "duration": 7.550000000000182,
+      "text": "But it's like that kind of stuff was unheard of as a politician. Like no one had done that. And I think. You",
+      "word_count": 23,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0014"
+    },
+    {
+      "start": 1545.19,
+      "end": 1551.5,
+      "duration": 6.309999999999945,
+      "text": "and being a firefighter or being a cop, it's the most dangerous business. It's the most dangerous",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0015"
+    },
+    {
+      "start": 1554.32,
+      "end": 1558.77,
+      "duration": 4.4500000000000455,
+      "text": "mean, you haven't even got to the election. There's been two assassination attempts.",
+      "word_count": 13,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0016"
+    },
+    {
+      "start": 1560.14,
+      "end": 1581.03,
+      "duration": 20.889999999999873,
+      "text": "brushed those out of the news like it was nothing. Yeah, they'd rather not talk about them. Imagine if there was assassination attempts on Biden. How hard people would be attacking the right. How they would be trying to get guns taken away from people. They would try to ramp up gun laws. They would try to figure out some way to blame you. If there was a tax on, if Biden got shot in the year, we would have never heard the end of",
+      "word_count": 85,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0017"
+    },
+    {
+      "start": 1694.2,
+      "end": 1697.2,
+      "duration": 3.0,
+      "text": "on the apprentice. They were going to love you as a president. was thinking it would",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0018"
+    },
+    {
+      "start": 1698.43,
+      "end": 1713.45,
+      "duration": 15.019999999999982,
+      "text": "would have been if the media didn't attack you the way they did if if they didn't conflate you with Hitler. I mean, even today, like, Kamala was talking about you and Hitler. You're they're they're going to take what you said about Robert E. Lee. Oh, Donald Trump. He loves Robert E.",
+      "word_count": 53,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0019"
+    },
+    {
+      "start": 1714.58,
+      "end": 1718.18,
+      "duration": 3.6000000000001364,
+      "text": "love to take things out of context and distort things, but",
+      "word_count": 11,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0020"
+    },
+    {
+      "start": 1746.53,
+      "end": 1759.1,
+      "duration": 12.569999999999936,
+      "text": "people should watch that episode just to see what we're talking about. Like I said, we don't want to get a copyright strike. So we're not going to put it up. But if you watch the episode, it's bananas. It's like an alternative universe. And it's only nine",
+      "word_count": 48,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0021"
+    },
+    {
+      "start": 1831.59,
+      "end": 1843.73,
+      "duration": 12.1400000000001,
+      "text": "It's crooked, but it's also they're diminishing diminishing themselves. They are killing all their credibility. And it's opening up the credibility to new media. It's open up the credibility to independent media. these.",
+      "word_count": 33,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0022"
+    },
+    {
+      "start": 1934.55,
+      "end": 1940.03,
+      "duration": 5.480000000000018,
+      "text": "show it if you want people to see it. No, we're we're getting trouble. We'll get copyright strike.",
+      "word_count": 18,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0023"
+    },
+    {
+      "start": 1941.4,
+      "end": 1951.42,
+      "duration": 10.019999999999982,
+      "text": "I'll I'll it's drastic. But what was interesting interesting was the other full version version was available initially. It It was like a preview.",
+      "word_count": 24,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0024"
+    },
+    {
+      "start": 2015.11,
+      "end": 2070.93,
+      "duration": 55.819999999999936,
+      "text": "Well, that's his job, unfortunately. I'm sure... when they want. You're right. Well, the problem was they fact -checked you and they didn't fact -check her. And one of those egregious examples of that was was when she said that there are no troops right now deployed in war zones. There's a very famous viral video that went online of troops in a war zone, saying, well, what the fuck are we then? Because there's thousands of them. Dan Crenshaw, the congressman, posted on his Instagram all of the various examples of... of... Two men. ...two troops that are deployed. Thousands and thousands of troops that are currently deployed. point is, if this is going to be an actual real debate and not a propaganda exercise, if it's going to be a real debate, you have to fact -check everybody. Like if someone They never wanted to... think. ...that there was no... ...which is also a problem. So it's one of two things. It's either it was... Not true, it a lie on purpose, which is terrible.",
+      "word_count": 177,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0025"
+    },
+    {
+      "start": 2085.8,
+      "end": 2091.05,
+      "duration": 5.25,
+      "text": "was a men -ded FBI statistics that came out after that that showed that crime had gone up substantially. by",
+      "word_count": 20,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0026"
+    },
+    {
+      "start": 2103.77,
+      "end": 2159.85,
+      "duration": 56.07999999999993,
+      "text": "turn out to be right, but then there's another problem. Unreported crime is way up. Because people have lost... Look, the morale that the police department has in a lot of these cities where they've done this defund the police bullshit. Right. These... The morale is poor cops. It's fucking horrible. It's It's the dumbest idea of all time. I terrible. Like good cops. I think cops are just like everybody else. Most of them great. It's like everybody else. But if you run into one carpenter and he does a shitty job in your house, he's he's saying, Carpenter's fucking suck. But they don't suck. Most of them are great. And that's the same thing with cops. But the point is, they they did all of these things in this very foolish way. And these cops are suffering the consequences of it. And so, subsequently, what happens is a lot of crime is unreported. A lot of crime, like you call the cops, they're too busy, they can't even get to your house cup broken into. Sorry. You know, it doesn't even make a report. There's a lot of people that they just give up.",
+      "word_count": 196,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0027"
+    },
+    {
+      "start": 2249.79,
+      "end": 2266.28,
+      "duration": 16.490000000000236,
+      "text": "here's another thing that people don't talk about. How many of them have PTSD? Probably most of them. These guys have seen people shot all the time. You know, I've talked to a ton of cops about it. you know, a lot of cops commit suicide. A lot of cops are deeply depressed. lot of But we have to give them",
+      "word_count": 61,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0028"
+    },
+    {
+      "start": 2283.29,
+      "end": 2302.37,
+      "duration": 19.079999999999927,
+      "text": "it's also this very irresponsible thing where people say, defund the police, get rid of the police. know, even Kamala Harris was a part of that. It's a, it's a very stupid way to look at it. What you should do is fund the police. You should have better training. should have cops that feel more appreciated. should have some, something that helps mitigate this PTSD that all of them suffer through.",
+      "word_count": 72,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0029"
+    },
+    {
+      "start": 2341.66,
+      "end": 2347.58,
+      "duration": 5.920000000000073,
+      "text": "Well, the wildest one is this idea of giving free sex change to illegal immigrants. That's right.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0030"
+    },
+    {
+      "start": 2349.59,
+      "end": 2355.97,
+      "duration": 6.379999999999654,
+      "text": "That is the wildest. Is that the biggest problem you have? just walked here for Guatemala. You need to become a girl.",
+      "word_count": 22,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0031"
+    },
+    {
+      "start": 2467.27,
+      "end": 2473.03,
+      "duration": 5.760000000000218,
+      "text": "float out the idea of getting rid of income taxes and replacing it with tariffs. Well,",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0032"
+    },
+    {
+      "start": 2721.68,
+      "end": 2725.65,
+      "duration": 3.9700000000002547,
+      "text": "weave is getting wide. We get wide with this weave. I want to bring back to tariffs.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0033"
+    },
+    {
+      "start": 2746.08,
+      "end": 2751.26,
+      "duration": 5.180000000000291,
+      "text": "It's the size of an iPad. He just set it down on the ground. You get high -speed internet. It's incredible.",
+      "word_count": 21,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0034"
+    },
+    {
+      "start": 2765.35,
+      "end": 2772.02,
+      "duration": 6.670000000000073,
+      "text": "that was wasted on this internet access program. They didn't get anybody.",
+      "word_count": 12,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0035"
+    },
+    {
+      "start": 2775.02,
+      "end": 2779.85,
+      "duration": 4.829999999999927,
+      "text": "They spent $42 billion. could have gotten Starlink's to everybody with that kind of money.",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0036"
+    },
+    {
+      "start": 2782.57,
+      "end": 2785.86,
+      "duration": 3.2899999999999636,
+      "text": "That would have been incredible. And it might be internet everywhere you want to go.",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0037"
+    },
+    {
+      "start": 2817.65,
+      "end": 2828.25,
+      "duration": 10.599999999999909,
+      "text": "yeah, I'm sure. I mean, I think everybody's aware of that now. Let's get you're talking about one of the criticisms of your administration was with tax cuts and with tariffs, you increased the deficit.",
+      "word_count": 35,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0038"
+    },
+    {
+      "start": 2830.41,
+      "end": 2835.57,
+      "duration": 5.160000000000309,
+      "text": "was the strategy, what was the strategy behind that? did you think it was going to increase the deficit",
+      "word_count": 19,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0039"
+    },
+    {
+      "start": 2963.75,
+      "end": 2966.77,
+      "duration": 3.019999999999982,
+      "text": "you attribute that to lowering tariffs. Yes. A lot of tariffs.",
+      "word_count": 11,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0040"
+    },
+    {
+      "start": 3070.34,
+      "end": 3081.9,
+      "duration": 11.559999999999945,
+      "text": "it's your belief that if if you had a second term, given the policies in place, the way the economy was booming, that you would have been able to pay off a lot of the debt. And that was We didn't have COVID.",
+      "word_count": 43,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0041"
+    },
+    {
+      "start": 3139.69,
+      "end": 3165.98,
+      "duration": 26.289999999999964,
+      "text": "Are there influences outside of environmental that keep keep people from wanting to drill for oil and frack and do those sort of things outside of the environmental concerns, which are legitimate, of course. No, no. Well, Well, are there other influences that may be overexcentuated overexcentuated or overexaggerate these environmental effects? Are people being influenced in a way where where they're trying to keep us from producing American oil?",
+      "word_count": 70,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0042"
+    },
+    {
+      "start": 3274.3,
+      "end": 3279.67,
+      "duration": 5.369999999999891,
+      "text": "So when you're saying that there's there's people that are making money by making it difficult,",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0043"
+    },
+    {
+      "start": 3284.26,
+      "end": 3291.7,
+      "duration": 7.4399999999996,
+      "text": "Environmental consultants profit off of dragging out the process. Absolutely. How do they probably",
+      "word_count": 14,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0044"
+    },
+    {
+      "start": 3331.19,
+      "end": 3347.59,
+      "duration": 16.40000000000009,
+      "text": "They use it as a way to stop you and also as a way to generate money. I'm curious how they're generating money that way though. Well, they get fees. They get fees. Massive fees. And pay these guys. rely on them as experts because they're the people that they go to when they have to run these studies in the first place. But",
+      "word_count": 64,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0045"
+    },
+    {
+      "start": 3395.65,
+      "end": 3406.79,
+      "duration": 11.139999999999873,
+      "text": "there are legitimate concerns about environmental impact. Like, look about the BP oil spill. There's a lot of things that do happen that are environmentally devastating. And you want to mitigate that as much as possible.",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0046"
+    },
+    {
+      "start": 3485.07,
+      "end": 3490.41,
+      "duration": 5.339999999999691,
+      "text": "We could clean the Sahara dust clouds over here. Absolutely. We get dust clouds in Austin from the Sahara Desert.",
+      "word_count": 20,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0047"
+    },
+    {
+      "start": 3520.53,
+      "end": 3526.86,
+      "duration": 6.329999999999927,
+      "text": "That's like what Gavin Newsom did when Xi Jinping came to San Francisco. He cleaned it up. He got rid of all the old ones. He was terrible in",
+      "word_count": 29,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0048"
+    },
+    {
+      "start": 3531.18,
+      "end": 3545.82,
+      "duration": 14.640000000000327,
+      "text": "thing is he said when your friends come by, when you have visitors, you clean up your house. Like, how about just keep your fucking house clean? you imagine? That's the dumbest thing I've ever heard anybody say ever as a governor, as to excuse to why you finally cleaned up your homeless problem.",
+      "word_count": 54,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0049"
+    },
+    {
+      "start": 3556.91,
+      "end": 3587.03,
+      "duration": 30.120000000000346,
+      "text": "Well, this is the thing that like shows you how foolish a lot of these people that are running these cities think, lot of these people that are running these states think. It's foolish. Like you, you're insulting the intelligence of the people that live in that city that are impacted by. These people just camping and needles and human feces. There's an app that you can buy. There's an app that you can get rather that will show you where the human feces has been documented in in San Francisco. It's a poo app and and it's everywhere. It's just bum",
+      "word_count": 102,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0050"
+    },
+    {
+      "start": 3699.42,
+      "end": 3711.81,
+      "duration": 12.389999999999873,
+      "text": "what it looked like before they reroute it? Never saw center of California, like, was it 200 years ago? How long ago did they do that, Jamie? The center of California had a fucking enormous lake in the middle of California. Or",
+      "word_count": 42,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0051"
+    },
+    {
+      "start": 3714.02,
+      "end": 3719.8,
+      "duration": 5.7800000000002,
+      "text": "what they did. But whatever foolishness that they did led to the situation that they're in now.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0052"
+    },
+    {
+      "start": 3724.85,
+      "end": 3738.16,
+      "duration": 13.309999999999945,
+      "text": "know, Tulare Lake or Tachy Lake. It's a fresh water lake in the southern San Joaquin Valley United States. Historically, Tulare Lake was one of the largest freshwater lakes west of Mississippi. Show a photo of what it looked like back then.",
+      "word_count": 42,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0053"
+    },
+    {
+      "start": 3740.39,
+      "end": 3749.59,
+      "duration": 9.200000000000273,
+      "text": "That's a great system. That's what it looked like. Look at that image. Now go to the one on the third from the right. That was an enormous lake in middle of California. Imagine that. That'd",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0054"
+    },
+    {
+      "start": 3750.69,
+      "end": 3754.03,
+      "duration": 3.3400000000001455,
+      "text": "is that? How crazy is that? What did you just look like? human",
+      "word_count": 13,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0055"
+    },
+    {
+      "start": 3757.65,
+      "end": 3760.89,
+      "duration": 3.2399999999997817,
+      "text": "I don't know what they did. What did they do that? How did it go missing?",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0056"
+    },
+    {
+      "start": 3890.95,
+      "end": 3897.01,
+      "duration": 6.0600000000004,
+      "text": "I had a whole forest though. I don't think you could break the whole forest. I think you could get rid of the dead fall, but breaking all the leaves.",
+      "word_count": 30,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0057"
+    },
+    {
+      "start": 3964.14,
+      "end": 3975.48,
+      "duration": 11.340000000000146,
+      "text": "Well, right after they made the announcement that as of 2035, you're not going to be able to buy an internal combustion engine in California. Yeah. Like within a month, they had some announcement asking asking people to not charge their Tesla's.",
+      "word_count": 42,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0058"
+    },
+    {
+      "start": 3986.7,
+      "end": 4027.82,
+      "duration": 41.120000000000346,
+      "text": "nuclear. One of the things that, when I've talked to people that have a real understanding of nuclear power, what their position position is, it's probably the cleanest, safest form of electricity that we could generate. And that the the fears of nuclear power are really about a few disasters. The Fukushima, through my island. These are old systems, and they're much more capable now, and they're capable of making even better systems. it's a difficult political issue, because you you think nuclear nuclear power, you think Chernobyl. That's what everybody does. They have this connection. have the potential. Sure, Fukushima. is... Well,",
+      "word_count": 103,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0059"
+    },
+    {
+      "start": 4030.15,
+      "end": 4052.17,
+      "duration": 22.019999999999982,
+      "text": "something. I think it's worse than that. I think that area is like going going to be radioactive for probably longer. You could imagine. the point is, they're better at it now. And that they could do it now, and you can generate power in a way that you don't have to worry about these... One of the most ridiculous ridiculous things is electric cars being powered by coal -fired plants. It's a ridiculous thing.",
+      "word_count": 75,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0060"
+    },
+    {
+      "start": 4053.24,
+      "end": 4057.64,
+      "duration": 4.400000000000091,
+      "text": "Yeah, it is what's happening. people want to think they're being green. You know, but it's...",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0061"
+    },
+    {
+      "start": 4181.94,
+      "end": 4187.61,
+      "duration": 5.670000000000073,
+      "text": "massive, I saw. saw. I went to a ranch in South Texas. We had a drive past this enormous windmill farm.",
+      "word_count": 21,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0062"
+    },
+    {
+      "start": 4189.2,
+      "end": 4197.06,
+      "duration": 7.860000000000582,
+      "text": "It's dystopian. You're looking in the left and the right. All you see is these big spinning machines that aren't even that effective at generating electricity.",
+      "word_count": 26,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0063"
+    },
+    {
+      "start": 4205.8,
+      "end": 4216.64,
+      "duration": 10.840000000000146,
+      "text": "have to get rid of all that material, too. When you replace those blades, now you have a problem because you have to dispose. Right. You have to dispose these enormous windmills. And how do you dispose say",
+      "word_count": 38,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0064"
+    },
+    {
+      "start": 4255.87,
+      "end": 4259.65,
+      "duration": 3.7799999999997453,
+      "text": "And in the ocean. It's no different than leaving garbage on the ground.",
+      "word_count": 13,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0065"
+    },
+    {
+      "start": 4276.05,
+      "end": 4279.09,
+      "duration": 3.0399999999999636,
+      "text": "What is happening with the whales? I've read about this.",
+      "word_count": 10,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0066"
+    },
+    {
+      "start": 4285.83,
+      "end": 4289.12,
+      "duration": 3.2899999999999636,
+      "text": "Right. And they're super sensitive to vibrations. They have those,",
+      "word_count": 10,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0067"
+    },
+    {
+      "start": 4325.55,
+      "end": 4328.57,
+      "duration": 3.019999999999527,
+      "text": "Would your plan to be replaced out with nuclear? What would you do?",
+      "word_count": 13,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0068"
+    },
+    {
+      "start": 4381.69,
+      "end": 4385.56,
+      "duration": 3.8700000000008004,
+      "text": "that's an example of over -regulation? Yeah, pointless over -regulation. Well, you have an",
+      "word_count": 14,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0069"
+    },
+    {
+      "start": 4475.84,
+      "end": 4487.31,
+      "duration": 11.470000000000255,
+      "text": "giving nuclear power to other countries, right? Like, that was the problem that happened with India and Pakistan. They got nuclear power. And then they were able to weaponize it.",
+      "word_count": 30,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0070"
+    },
+    {
+      "start": 4530.12,
+      "end": 4543.74,
+      "duration": 13.61999999999989,
+      "text": "do you see what he did today? He went running towards the camera and made some apology to Native Americans. And he said that's why he's headed out west. Like, he's off off the reservation, so to speak, for lack of a better term.",
+      "word_count": 44,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0071"
+    },
+    {
+      "start": 4553.56,
+      "end": 4563.08,
+      "duration": 9.519999999999527,
+      "text": "But he couldn't keep it together. But do you think they knew he couldn't keep it together? think Do you think that they wanted... Is that why, like, historically that debate was earlier than they've been in the past?",
+      "word_count": 39,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0072"
+    },
+    {
+      "start": 4571.76,
+      "end": 4575.91,
+      "duration": 4.149999999999636,
+      "text": "Well, that is what happened. It's a lot I think they also said, do the",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0073"
+    },
+    {
+      "start": 4593.96,
+      "end": 4607.51,
+      "duration": 13.550000000000182,
+      "text": "Why would I get to that, too? Because it's hard to know. Like, the whole poll thing is very bizarre for most people. Because most people don't answer polls. So they read the polls. You have a poll. never a poll. I was never a poll. I a poll. If I did, I wouldn't answer. I'm busy. You know",
+      "word_count": 59,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0074"
+    },
+    {
+      "start": 4672.06,
+      "end": 4678.93,
+      "duration": 6.869999999999891,
+      "text": "Well, it's also a tiny percentage of the population. I don't think it's representative of the overall population. I just don't think... I don't",
+      "word_count": 24,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0075"
+    },
+    {
+      "start": 4761.33,
+      "end": 4790.29,
+      "duration": 28.960000000000036,
+      "text": "There's a lot of crooked stuff. And wanted to talk about that too, because one of the things that people talk talk about with you is the denial of the results. And think JD Vance did a brilliant job the other day when he was being interviewed. And they asked him, did Trump lose the 2020 election? And And he turned it around and said, was there legitimate election interference in in suppressing the Hunter Biden laptop story on social media? And was that a concerted effort?",
+      "word_count": 87,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0076"
+    },
+    {
+      "start": 4808.6,
+      "end": 4821.98,
+      "duration": 13.3799999999992,
+      "text": "think he's a brilliant guy. And I think his ability to talk like like a normal human being. You did my friend Theo Vance podcast, and he just did it. great. He just talks about what you called me to do.",
+      "word_count": 41,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0077"
+    },
+    {
+      "start": 4823.61,
+      "end": 4837.03,
+      "duration": 13.420000000000073,
+      "text": "No, no. He He was a a nice He guy. was like, he's got to come in here. It's all about timing. It's all about the timing. I think timing is perfect. Do you even have a scar on your ear? You got anything on there? I do. What What we say? got it.",
+      "word_count": 54,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0078"
+    },
+    {
+      "start": 4873.11,
+      "end": 4879.61,
+      "duration": 6.5,
+      "text": "Yeah, he's a fantastic wrestler. one of the best mixed martial arts. What is he fighting a master's career guard in November.",
+      "word_count": 22,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0079"
+    },
+    {
+      "start": 4890.34,
+      "end": 4902.79,
+      "duration": 12.449999999999818,
+      "text": "One of the things that was fascinating also was that the denial of the election results is a pretty common thing. Hillary Clinton famously denied that she called you an illegitimate president and she said that Russia put you in place.",
+      "word_count": 41,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0080"
+    },
+    {
+      "start": 4907.48,
+      "end": 4920.83,
+      "duration": 13.350000000000364,
+      "text": "Yes. And it was a thing that was pretty common for people, especially Democrats, to deny the elections. There's There's been many of them. The Bush administration, the, you know, the dangling chads, all that stuff.",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0081"
+    },
+    {
+      "start": 4933.67,
+      "end": 4982.93,
+      "duration": 49.26000000000022,
+      "text": "My point is this this idea of election fraud is a forbidden topic. And you get labeled an election tonight. It's like being labeled an anti -vaxxer if you question some of the health consequences consequences that people who have from the COVID -19 shots. Oh, my God, you're anti -vaxxer. If you say, and what I say publicly, and I've said this a lot, it's not 0%. So So if you ask me, what is the amount of election fraud in this country? Is it 0 %? No one thinks it's 0%. I've never met met one person, not a super liberal, progressive, far -left person or a right -wing conservative. Not one person thinks it's 0%. They They think when you have human beings, and also you have a lot of weirdness that that was going on during the 2020 elections, particularly with male imbalance.",
+      "word_count": 147,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0082"
+    },
+    {
+      "start": 5000.04,
+      "end": 5013.58,
+      "duration": 13.539999999999964,
+      "text": "the rhetoric is also that you're Hitler. that in order to stop Hitler, you have to do whatever it takes. It Yeah. you're hearing this now. Kamala compared you to said your love of Hitler yesterday.",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0083"
+    },
+    {
+      "start": 5047.53,
+      "end": 5065.37,
+      "duration": 17.840000000000146,
+      "text": "Well, I think it's pressure. I think the pressure and the scrutiny, you've been a celebrity for a long time, and you understand what this is like. But for someone who's in her late 40s, who becomes the vice president, who runs for president, becomes the vice president, and then all of a sudden, the weight of the world is on your shoulders. And there's all these people paying to, a lot of people clam up.",
+      "word_count": 76,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0084"
+    },
+    {
+      "start": 5302.59,
+      "end": 5309.18,
+      "duration": 6.5900000000001455,
+      "text": "Well, not only that, we left billions of dollars worth of equipment and military vehicles. The best... The",
+      "word_count": 18,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0085"
+    },
+    {
+      "start": 5313.06,
+      "end": 5320.87,
+      "duration": 7.809999999999491,
+      "text": "Taliban parade where they're got tanks rolling down the streets in black hawks flying is the craziest thing I've ever seen. We left the best",
+      "word_count": 25,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0086"
+    },
+    {
+      "start": 5816.4,
+      "end": 5821.38,
+      "duration": 4.980000000000473,
+      "text": "do. So do you think that it was in competence? Why? They didn't go after ISIS? I think",
+      "word_count": 18,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0087"
+    },
+    {
+      "start": 6078.29,
+      "end": 6100.53,
+      "duration": 22.23999999999978,
+      "text": "seeing the consequences of it. San Antonio, they've taken over all our buildings in a rural Colorado. They've taken over apartment buildings. These Venezuelan gangs. Just do you think the strategy is? One of the things that they've said is that you stopped a bill from from being passed. But didn't that bill also include amnesty for the people that are already here?",
+      "word_count": 63,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0088"
+    },
+    {
+      "start": 6114.92,
+      "end": 6132.74,
+      "duration": 17.81999999999971,
+      "text": "But we should just tell people what the strategy is. So one of the things that's been very, very strategic. of the things that's been very clear is is that they've moved a large percentage of these migrants that are coming across the border illegally. They've moved them to to swing states. This This is what's going on with Springfield Ohio, right?",
+      "word_count": 62,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0089"
+    },
+    {
+      "start": 6224.81,
+      "end": 6242.14,
+      "duration": 17.329999999999927,
+      "text": "it's also, it's obviously not just her. There's a strategy involved in letting these people in. they also, they utilize that app, the app that used to be used. It used to be used, I think, essentially, wasn't it for shipping? Wasn't it when people were in this country? It was",
+      "word_count": 51,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0090"
+    },
+    {
+      "start": 6363.98,
+      "end": 6367.86,
+      "duration": 3.880000000000109,
+      "text": "friends with him for 23 years.",
+      "word_count": 6,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0091"
+    },
+    {
+      "start": 6393.73,
+      "end": 6405.78,
+      "duration": 12.050000000000182,
+      "text": "to know. think, you know, one of the things that works for this show, I guess, is that I'm involved in so many different things. You know, stand up comedy UFC and all the interest that I have that lead to the podcast.",
+      "word_count": 43,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0092"
+    },
+    {
+      "start": 6412.02,
+      "end": 6452.17,
+      "duration": 40.149999999999636,
+      "text": "it. They could pay you nothing. They didn't pay me anything. For the first like 13 shows, I did it for free because they were hammering money. And I became friends with Dana and my position was you're going to give me the best seat in the house. I get to sit cage side for the fights. I'll do it. And I wanted to help. I was like, I think these are the guys that we had always hoped for. And these are the days of the sport. I started working for the company in 1997. I was the before the UFC was purchased by Zufo, which Dana worked for. I was a part of the previous owners. And I only did it for a couple of years. It was just too much and I was losing money. And it was banned from cable because of Bud Weiser and John McCain. And you could only get it on TV. And so then",
+      "word_count": 162,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0093"
+    },
+    {
+      "start": 6453.99,
+      "end": 6457.65,
+      "duration": 3.6599999999998545,
+      "text": "he never forgot. He loves you for that. He talks about it all",
+      "word_count": 13,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0094"
+    },
+    {
+      "start": 6524.55,
+      "end": 6532.43,
+      "duration": 7.880000000000109,
+      "text": "very unusual guy. He's A perfect guy to be at the helm of something so controversial as the UFC.",
+      "word_count": 19,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0095"
+    },
+    {
+      "start": 6534.45,
+      "end": 6549.12,
+      "duration": 14.670000000000073,
+      "text": "now it's huge. Yeah. Well, this was always the thing that I would hope did it. I always knew that it was unbelievably entertaining, but I just didn't know if maybe I was crazy. Maybe I loved it because I've had this long history of being involved in martial arts and maybe like other people who just think it's too violent.",
+      "word_count": 61,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0096"
+    },
+    {
+      "start": 6559.68,
+      "end": 6588.67,
+      "duration": 28.98999999999978,
+      "text": "well, you know, Dana is working with the Kingdom of Saudi Arabia. They're going to start promoting boxing now. with Dana at the helm of it, I think boxing give a turn because the the thing is they want to make fights that that other people maybe, you know, promoters don't want to make because they want to protect their fighter, controversial fights where you know, it's dangerous. Like you don't know this guy could lose. And so the Saudis, they're smart. They just offer a tremendous amount of money and they're putting together fighter fights that that no one else can put together. They're doing that in boxing.",
+      "word_count": 109,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0097"
+    },
+    {
+      "start": 6605.61,
+      "end": 6690.88,
+      "duration": 85.27000000000044,
+      "text": "Yes. And there's also no other options to preserve yourself, to protect yourself. So if you get hit in a UFC fight, you can clinch. You can try to take to the fight to the ground. You get options. Also, you you don't get allowed to get knocked down and then get back up. When you get knocked down, you're concussed. And generally, you know, if a guy's really hurt, they can be finished on the ground and the fights over. If it's boxing, you have 10 seconds to get up. You get up, your head kind of clears, you're still in real bad trouble and you can kind of run away and survive until the bell rings. There are only three minute rounds and and then you start again. So you're getting repeated punishment to the head. then there's also the issue of guys weight cutting, which is a problem with the UFC as well. weight cutting and boxing has led to, if you look at deaths in boxing, there's very few of them in the heavyweight division. Most of the deaths in boxing are the lighter weight divisions because when guys dehydrate themselves to lose weight, make weight, their brain is the last thing that gets rehydrated. It's very difficult to completely rehydrate brain quickly. And And you only have 24 hours between the weigh -in and the fight and it used to be the the weigh -ins were the day of the fight. Like when Boom Boom Man seen how to fight with Dukku Kim and killed him in the ring, which is one of the last last ones on television that we've seen. That was a crazy event for people in heartbreaking and it led to a bunch of different changes. One of them is day before weigh -ins to to allow people to rehydrate better and the other one is they dropped it from 15 rounds down down to 12.",
+      "word_count": 325,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0098"
+    },
+    {
+      "start": 6697.48,
+      "end": 6700.77,
+      "duration": 3.290000000000873,
+      "text": "They were unbelievable. They were unbelievable. Yeah, you could terms of old and age.",
+      "word_count": 14,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0099"
+    },
+    {
+      "start": 6706.97,
+      "end": 6722.09,
+      "duration": 15.11999999999989,
+      "text": "last three rounds were crazy. That was brutal. I mean, it's such a war of attrition. You know, a lot of people think even on a five round UFC fight. UFC is five minute rounds. It's so much energy you're burning out. And those last couple of rounds, those five round fights, the fourth and the fifth round,",
+      "word_count": 58,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0100"
+    },
+    {
+      "start": 6731.49,
+      "end": 6786.11,
+      "duration": 54.61999999999989,
+      "text": "There's a lot of arguments for who's the greatest of all time. know, John Jones, most people would say is the greatest of all time, never lost. There's certainly a really good argument for that. There's another argument for George St. Pierre. I always leave in BJ Penn in his prime, Anderson Silva in his prime. You You know, mighty mouse. People forget about mighty mouse because unfortunately he's a smaller guy. 125 pounds flyweight champion. He's one of the greatest expressions of mixed martial arts I've ever seen. I think to this day, and Kabeep. What about you? Kabeep is fantastic. But if you looked at the accomplishments in terms of championship fights, Kabeep retired 29 and 0, but he didn't have as many world championships as have lost to Glacin T -Bow. He might have lost to him. Might have lost around. that was a controversial fight where people think that Glacin T -Bow could have even got the decision in that fight. I'd have to go back and watch it again to make a decision.",
+      "word_count": 178,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0101"
+    },
+    {
+      "start": 6788.2,
+      "end": 6800.18,
+      "duration": 11.980000000000473,
+      "text": "Oh, the best athletes in the world. Then the most most dangerous sport in terms of like... like... I always call it high level problem solving with dire physical consequences. Yes, That's what fighting is.",
+      "word_count": 35,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0102"
+    },
+    {
+      "start": 6811.91,
+      "end": 6816.16,
+      "duration": 4.25,
+      "text": "He went from middleweight all the way up to heavyweight. And he never seemed to feel as a heavyweight.",
+      "word_count": 19,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0103"
+    },
+    {
+      "start": 6827.71,
+      "end": 6838.37,
+      "duration": 10.659999999999854,
+      "text": "No, James Tony didn't fight George St. Pierre. He Koutour fought James Tony. Those were very easy fights. Randy Koutour just took him down and strangled was the",
+      "word_count": 28,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0104"
+    },
+    {
+      "start": 6844.68,
+      "end": 6848.33,
+      "duration": 3.649999999999636,
+      "text": "him down, mounted him, strangled him. was And he",
+      "word_count": 9,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0105"
+    },
+    {
+      "start": 6850.89,
+      "end": 6856.9,
+      "duration": 6.009999999999309,
+      "text": "just wanted to make some money. You think so? Yeah. And I never It was over",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0106"
+    },
+    {
+      "start": 6865.44,
+      "end": 6870.23,
+      "duration": 4.789999999999964,
+      "text": "Koutour. George never fought a boxer in an MMA fight. If he did, he would kill them.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0107"
+    },
+    {
+      "start": 6872.49,
+      "end": 6887.02,
+      "duration": 14.530000000000655,
+      "text": "Yes, unquestionably. That's... argument... There's like a handful of guys you can make the argument as the greatest of all time. People forget about Anderson Silva in his prime. He was unstoppable. It's... Anderson Sillin in his Fedora Million Enko, who fought pride in his prime. was unstoppable.",
+      "word_count": 48,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0108"
+    },
+    {
+      "start": 6889.98,
+      "end": 6911.31,
+      "duration": 21.330000000000837,
+      "text": "Oh, we've got so many now. Alex Pereira. There's an argument that he's... He's looking for Palphine. He's looking for very He's unbelievable. But it's like fighters fighters can only compete at that level for so many years. so, my opinion, you have to judge them at their very peak. You can't judge them when they're hanging on and still fighting. You can't judge them when they're coming up. You've got to judge them in that championship peak.",
+      "word_count": 78,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0109"
+    },
+    {
+      "start": 6912.71,
+      "end": 6917.19,
+      "duration": 4.479999999999563,
+      "text": "And that championship peak, there's a handful of guys that you would consider at the very top. If they",
+      "word_count": 19,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0110"
+    },
+    {
+      "start": 6930.27,
+      "end": 6938.83,
+      "duration": 8.55999999999949,
+      "text": "Yes, it's unfortunate, but the thing is that same belief in themselves that lets them become a champion makes them think that they can do it long past the time that they actually can.",
+      "word_count": 34,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0111"
+    },
+    {
+      "start": 6944.03,
+      "end": 6985.5,
+      "duration": 41.470000000000255,
+      "text": "knocked out. He got knocked out by Chris Wydeman. Right. Right. He was kind of clowning in that fight famously. And Chris Wydeman had a vicious left hook, knocked him out. And then they fought a second time, and he broke his leg on Chris Wydeman. after that fight, he was kind of never the same, because that leg break injury, injury, which Conor McGregor had... There's quite a few fighters that... That was a ...who I haven't actually won up having the same injury, ironically. It's only been like... You're never the same. Well, you can, Wydeman is still kicking with that leg. can, but psychologically, psychologically, when you throw a kick in your leg, you're in half, and you're an agony for a year. You have to get surgery, you have to get bolts and plates to keep your leg together, and then it takes forever for it to heal.",
+      "word_count": 152,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0112"
+    },
+    {
+      "start": 6995.51,
+      "end": 7025.3,
+      "duration": 29.789999999999964,
+      "text": "damaged. It hurts more than you Yeah, your shin... Your shin gets very numb after a while. And the guys that are really good kickers, they're kicking the thigh and they're kicking the they're kicking soft areas, and they're slamming this hard numb shin. Your shin gets all these micro fractures all over the shin and it calcifies. These guys can kick baseball bats. They ever seem to break baseball bats with their shin. Yeah, I know. It's crazy. Some guys can do two baseball bats. Someone will hold the baseball bat and they'll just kick right through them.",
+      "word_count": 99,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0113"
+    },
+    {
+      "start": 7035.42,
+      "end": 7046.39,
+      "duration": 10.970000000000255,
+      "text": "What has to be authentic? Like that... mean, the only reason why I do MMA commentaries because I'm very very interested in it for real. I don't have to manufacture it. I'm very interested in it. So... Are",
+      "word_count": 38,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0114"
+    },
+    {
+      "start": 7061.44,
+      "end": 7102.16,
+      "duration": 40.720000000000255,
+      "text": "Yes, it was pretty nasty. But no, I'm very used to it. I just wanted him to be able to express himself. He's Thank you. You're a great job. back to you and back to... What are are you... First of all, I love this idea of you teaming up with Robert Kennedy. Right. And I love this Make America Healthy Again idea. Because there there are chemicals and ingredients and there are food that are illegal in other countries because they've been shown to be toxic. There's pesticides and herbicides and there's a lot of shit that's been sprayed on our food that really is unnecessary. And there's a lot of health consequences that people are suffering from a a lot of these things. And",
+      "word_count": 126,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0115"
+    },
+    {
+      "start": 7112.05,
+      "end": 7124.5,
+      "duration": 12.449999999999818,
+      "text": "this. Well, something along the... I was actually talking to RFK today. And And he told me that more more than 70 % of young men are ineligible for the military because of their health.",
+      "word_count": 35,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0116"
+    },
+    {
+      "start": 7127.61,
+      "end": 7131.32,
+      "duration": 3.7100000000000364,
+      "text": "the life expectancy versus health expenditure.",
+      "word_count": 6,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0117"
+    },
+    {
+      "start": 7139.46,
+      "end": 7148.18,
+      "duration": 8.720000000000255,
+      "text": "That's our diet. That's that sedentary lifestyle. That's our diet. That's the chemicals we ingest. That's what that is.",
+      "word_count": 19,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0118"
+    },
+    {
+      "start": 7152.58,
+      "end": 7158.98,
+      "duration": 6.399999999999636,
+      "text": "I think love the fact that you guys teamed up. Are you guys completely committed to have him a part of your administration? Oh, am.",
+      "word_count": 25,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0119"
+    },
+    {
+      "start": 7178.79,
+      "end": 7184.28,
+      "duration": 5.489999999999782,
+      "text": "But listen, there's plenty of good work that could be done if you focus on health. So... Here's the one that my",
+      "word_count": 22,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0120"
+    },
+    {
+      "start": 7187.67,
+      "end": 7195.6,
+      "duration": 7.930000000000291,
+      "text": "anyone that is pressuring you to not work with him? Have there been people working with you? RFK junior.",
+      "word_count": 19,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0121"
+    },
+    {
+      "start": 7196.75,
+      "end": 7200.32,
+      "duration": 3.569999999999709,
+      "text": "I would imagine. Because financially he could put a dent.",
+      "word_count": 10,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0122"
+    },
+    {
+      "start": 7246.88,
+      "end": 7264.28,
+      "duration": 17.399999999999636,
+      "text": "certainly if... It doesn't Some pharmaceutical drugs that have been prescribed that have negative consequences that these people have been profiting off of. And then you have a guy like RFK junior who spends an enormous amount of time highlighting those things. You could say how they've been very reluctant to have you support him.",
+      "word_count": 55,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0123"
+    },
+    {
+      "start": 7298.2,
+      "end": 7307.85,
+      "duration": 9.650000000000546,
+      "text": "Strip. Is it vaccine derived polio? Because, you know, there's a strain of polio that comes directly from the vaccine, because unfortunately, sometimes, there's people for polio. Oh, I see. You to get them to happen.",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0124"
+    },
+    {
+      "start": 7319.7,
+      "end": 7339.9,
+      "duration": 20.199999999999818,
+      "text": "two things that people point to... When they point to the dangers of the pharmaceutical drug industry. One thing is when pharmaceutical drugs were allowed to advertise on television, we're only one of two countries in the world that allow pharmaceutical drugs to advertise on TV. The other ones do Zeeland, but they're more restrictive than we are.",
+      "word_count": 58,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0125"
+    },
+    {
+      "start": 7387.52,
+      "end": 7428.37,
+      "duration": 40.849999999999454,
+      "text": "Well, I know you're aware of Calend KC means, right? Well, one of the things that they pointed out, and this is a very important thing for people to understand, is what a lot of these drugs do, is they act act to... to somehow or another mitigate the effects of poor metabolic... most of these problems that these people are suffering from, wouldn't exist if we put an emphasis on metabolic health. If people got healthier, they started eating nutritious food, and taking vitamins, a whole host of these problems that people are having would would go away. And the problem with that, from the pharmaceutical drug standpoint, is they wouldn't be able to sell drugs to these people. this is a fear that... And pesticides",
+      "word_count": 127,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0126"
+    },
+    {
+      "start": 7432.69,
+      "end": 7483.98,
+      "duration": 51.289999999999964,
+      "text": "Well, I think regenerative agriculture, unfortunately, is very difficult to scale to a point where you got a jack in the box on every corner. wants food, and we have food deserts, we have places like Los Angeles, where no one's growing anything, and everything has to be shipped in. And it's very difficult to feed that that many people. We've created this incredible society, where we have these enormous cities, but it's very very difficult to get food to these people. And then, for a lot of these people in low -income areas, the only food that's available is cheap unhealthy food. we could fix that. If we could send $175 billion to Ukraine, we could do something to fix a lot of the health problems that the United States has. And I think it would help us as a nation overall. overall. If you just put it out there, that, hey, as a nation, we're going to make a concerted effort to get people healthier. Just put it out there, and",
+      "word_count": 173,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0127"
+    },
+    {
+      "start": 7509.74,
+      "end": 7516.43,
+      "duration": 6.690000000000509,
+      "text": "Unfortunately, is a big factor for health. Some people are just way more robust. But you do play golf a lot, and that is extra -science.",
+      "word_count": 26,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0128"
+    },
+    {
+      "start": 7583.98,
+      "end": 7591.4,
+      "duration": 7.420000000000073,
+      "text": "And it's also a thing, I think, that's a... It cleans your mind, because when you're looking at a shot, that's all you can think of when you're executing.",
+      "word_count": 29,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0129"
+    },
+    {
+      "start": 7853.05,
+      "end": 7862.5,
+      "duration": 9.449999999999818,
+      "text": "You get a lot of positive pressure. I would get a lot of positive pressure. it's a creepy corrupt business. the media to a large extent acts as a propaganda arm for the Democratic Party. It's",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0130"
+    },
+    {
+      "start": 7863.88,
+      "end": 7874.34,
+      "duration": 10.460000000000036,
+      "text": "Yeah, it's bizarre to watch. most young young people that they grow aware of it, I think most boomers still unfortunately read the newspapers and believe in CNN.",
+      "word_count": 28,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0131"
+    },
+    {
+      "start": 7880.47,
+      "end": 7896.96,
+      "duration": 16.48999999999978,
+      "text": "internet. It's because the internet is giving people information that they're not getting from anywhere else. And they like the very fine people hoax, the rush of gate hoax, all these different things that they've done that try to pin on you. It's a clear distortion of what you actually said.",
+      "word_count": 51,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0132"
+    },
+    {
+      "start": 7910.25,
+      "end": 7930.3,
+      "duration": 20.050000000000182,
+      "text": "to be a blood bath because they're going to take over. That's exactly what they terrible But that's the problem with propagandists because they take things out of context and of ultimately what they do is they diminish their own credibility because people don't want to listen to it anymore because they see that they've done that and they recognize what's going on and they feel insulted. They're intelligent. Well, look at the ratings.",
+      "word_count": 74,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0133"
+    },
+    {
+      "start": 7977.57,
+      "end": 7992.25,
+      "duration": 14.680000000000291,
+      "text": "think young people are rejecting a lot of this woke bullshit. are tired of being yelled at and scolded. They're tired of these people that they think are mentally ill. Telling them what the moral standards of society should be today. people are upset.",
+      "word_count": 44,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0134"
+    },
+    {
+      "start": 8001.35,
+      "end": 8009.94,
+      "duration": 8.589999999999236,
+      "text": "They're like, you want to be a rebel. You want to be punk rock. You want to like, buck the system. You're conservative now. That's the, that's how crazy. And then the liberals are now pro",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0135"
+    },
+    {
+      "start": 8012.72,
+      "end": 8023.22,
+      "duration": 10.5,
+      "text": "-silencing criticism. They're pro -censorship online. They're talking about regulating free speech and and they're regulating the first amendment. It's bananas",
+      "word_count": 21,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0136"
+    },
+    {
+      "start": 8058.25,
+      "end": 8065.91,
+      "duration": 7.6599999999998545,
+      "text": "not only that, but they're never weaponizing it by saying that that's what you were going to do once you get an office. Is it right? Ignoring what they're",
+      "word_count": 29,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0137"
+    },
+    {
+      "start": 8089.87,
+      "end": 8093.85,
+      "duration": 3.980000000000473,
+      "text": "I respected that you didn't because what you said was it would be bad for the country.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0138"
+    },
+    {
+      "start": 8218.24,
+      "end": 8225.4,
+      "duration": 7.1599999999998545,
+      "text": "he wanted attention. I want to talk about 2020, because you said over and over again, that you were robbed in 2020.",
+      "word_count": 22,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0139"
+    },
+    {
+      "start": 8226.42,
+      "end": 8230.95,
+      "duration": 4.530000000000655,
+      "text": "How do you think you were robbed? Everybody always cuts you off. I'm going to allow.",
+      "word_count": 16,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0140"
+    },
+    {
+      "start": 8298.63,
+      "end": 8301.87,
+      "duration": 3.2400000000016007,
+      "text": "Like, do you think. me just give you one Okay.",
+      "word_count": 10,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0141"
+    },
+    {
+      "start": 8375.97,
+      "end": 8383.77,
+      "duration": 7.800000000001091,
+      "text": "boxes. But just in terms of narrative, so there's two things. There's the Russia hooks. There's the collusion with Russia that was never proven. That's what",
+      "word_count": 26,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0142"
+    },
+    {
+      "start": 8385.37,
+      "end": 8449.88,
+      "duration": 64.5099999999984,
+      "text": "But they talked talked about it on television. But it took two and a half But not only that, but it was a constant narrative on television. That's a constant narrative that gets into people's minds, especially low information people that just watched the news. That you're collusion with Russia. So that's one. So that changes the narrative. And then you have the 51 former intelligence agents that work work with the original Twitter and and get them to remove links. You can't share it on DMs. You cannot share that story. They swept that story because because they said it was Russian disinformation, even though they knew it was not. Hundreds of questions. So that's two examples that that are real examples. Now, anyone who who considers himself a legitimate objective observer of American politics, if you really want the best person to win, you would want people to not lie. And the only reason why they got away with this lie was because they continually labeled you as this horrible threat to democracy and Hitler. They kept saying you're going to be a dictator, ignoring the fact that you were a dictator for the four years where where you were actually the president.",
+      "word_count": 205,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0143"
+    },
+    {
+      "start": 8484.83,
+      "end": 8493.44,
+      "duration": 8.610000000000582,
+      "text": "was supposed to do it and she might still do it. And I hope she does. She's not going to do I will talk to her like a human being. I will try to have a conversation this kind of an",
+      "word_count": 41,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0144"
+    },
+    {
+      "start": 8503.5,
+      "end": 8526.48,
+      "duration": 22.979999999999563,
+      "text": "I think I'd be able to talk to her. I wouldn't try to interview her. I just try have a conversation with her and hopefully get to know her as a human being. That was my goal having having her on. Trying to get her to express herself just as I don't know if these, I I don't think these formats are good. I don't think that two people, first of all, I hate the idea of the presidential debates because I hate the idea of a time limitation on complex ideas. Also, you have to break I",
+      "word_count": 98,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0145"
+    },
+    {
+      "start": 8527.98,
+      "end": 8542.7,
+      "duration": 14.720000000001164,
+      "text": "But the way they do the debates, I think, is the wrong way to do it. I think they should have a conversation. I think you and and Kamala, you sit across the table with no one in the room but the two of you. Of course, you're not going to shout each other. Of course, you're not going to get sold to each other.",
+      "word_count": 65,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0146"
+    },
+    {
+      "start": 8543.88,
+      "end": 8574.81,
+      "duration": 30.93000000000029,
+      "text": "But that would be the way to do it. They used to do it that way. would put cameras on you with no one one interfering with checking whether whether or not it's factual, especially when it's biased because because they checked you all those times and they didn't check or would would clearly things that were inaccurate. have two people just have a conversation without a time constraint. And also this idea, they cut off the microphone. No crowd. Crazy too because you're good at working a crowd.",
+      "word_count": 89,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0147"
+    },
+    {
+      "start": 8647.68,
+      "end": 8651.73,
+      "duration": 4.049999999999272,
+      "text": "tried to say that with you and Kamala as well. They tried to say that you didn't want to debate her as well.",
+      "word_count": 23,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0148"
+    },
+    {
+      "start": 8733.97,
+      "end": 8741.77,
+      "duration": 7.800000000001091,
+      "text": "yeah. Well, Megan said you said it to other people and you admitted you did. But it was funny. It was, it was a comedic timing moment. what they wanted It was",
+      "word_count": 32,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0149"
+    },
+    {
+      "start": 8752.91,
+      "end": 8758.97,
+      "duration": 6.059999999999491,
+      "text": "that's the reason why to have an debate in front of a large audience. And then they probably thought, you were the ultimate dinner.",
+      "word_count": 24,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0150"
+    },
+    {
+      "start": 8760.75,
+      "end": 8764.57,
+      "duration": 3.819999999999709,
+      "text": "That was great. Very funny. It's a very funny stuff. The Tim Wall stuff was very funny.",
+      "word_count": 17,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0151"
+    },
+    {
+      "start": 8767.3,
+      "end": 8777.46,
+      "duration": 10.159999999999854,
+      "text": "crazy one. She said that she had picked him. And this is one of the questions I want to ask her when she was sleep deprived. She said she was suffering from sleep deprivation when she picked him. I",
+      "word_count": 39,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0152"
+    },
+    {
+      "start": 8799.97,
+      "end": 8807.41,
+      "duration": 7.440000000000509,
+      "text": "the lying about Tiananmen Square. Everything admitted in that. Yeah. The military record, assisting coach versus head coach.",
+      "word_count": 18,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0153"
+    },
+    {
+      "start": 8946.19,
+      "end": 8960.35,
+      "duration": 14.159999999999854,
+      "text": "Well, some people are buying it because they want to buy it. Because it's blue no matter who. There's a certain percentage of our population that's going to vote Democrat no matter what. They're pressured. They're community. They're ideology. It's that's know, I don't understand. Right is evil.",
+      "word_count": 48,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0154"
+    },
+    {
+      "start": 8998.15,
+      "end": 9007.18,
+      "duration": 9.030000000000655,
+      "text": "that's, I want to ask you this. Why do you think they're doing that? I think because you think they're trying to buy votes. Do you think they're just one cheap Like what is the idea?",
+      "word_count": 36,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0155"
+    },
+    {
+      "start": 9018.3,
+      "end": 9022.87,
+      "duration": 4.570000000001528,
+      "text": "to give people amnesty, people that live here. They're trying to give them a pass. They want to give them",
+      "word_count": 20,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0156"
+    },
+    {
+      "start": 9024.31,
+      "end": 9031.16,
+      "duration": 6.850000000000364,
+      "text": "about the amount of money that they've given them when they've come here? The food stamps, the benefits that even our poor people aren't getting.",
+      "word_count": 25,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0157"
+    },
+    {
+      "start": 9067.2,
+      "end": 9075.93,
+      "duration": 8.729999999999563,
+      "text": "elections. You say you have all the evidence that it was rigged. haven't you put this evidence in a consumable form?",
+      "word_count": 21,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0158"
+    },
+    {
+      "start": 9108.63,
+      "end": 9125.25,
+      "duration": 16.6200000000008,
+      "text": "Let's talk about the potential vulnerabilities for elections and election fraud. One of them is mail -in ballots. The The other one is if someone someone could break into voting machines. If If someone could hack voting machines. Those are two huge ones. Elon Musk.",
+      "word_count": 45,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0159"
+    },
+    {
+      "start": 9141.39,
+      "end": 9145.57,
+      "duration": 4.180000000000291,
+      "text": "he's doing Starlink. And while he's talking to me about Elon's Twitter. And then he",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0160"
+    },
+    {
+      "start": 9199.13,
+      "end": 9202.14,
+      "duration": 3.0100000000002183,
+      "text": "You're allowed to have an opinion. Let's say you win in",
+      "word_count": 11,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0161"
+    },
+    {
+      "start": 9204.06,
+      "end": 9211.3,
+      "duration": 7.239999999999782,
+      "text": "What can be done to mitigate these problems? What could be done at at the level that the president has power?",
+      "word_count": 21,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0162"
+    },
+    {
+      "start": 9291.27,
+      "end": 9301.63,
+      "duration": 10.359999999998763,
+      "text": "this is a, it ticked up in a big way after COVID. used to be like soldiers serving overseas. They used COVID to cheat. Yeah. Well, they used COVID to certainly push this mail -in ballot. Another thing that they did",
+      "word_count": 41,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0163"
+    },
+    {
+      "start": 9333.61,
+      "end": 9364.29,
+      "duration": 30.68000000000029,
+      "text": "bad. That certainly certainly is a problem. Mail -in ballots are a problem. But every other country, know, other countries, ID is the most bizarre argument that I've never seen anybody articulate in a way that's convincing. Because they don't cheat. Well, it doesn't make sense any other way. I've tried to straw -man it, or I tried to steal -man it, right? They've tried to, like, look at it from a position like, why would you not want want people to have ID? And a lot of the ideas are just ridiculous. Gavin Newske.",
+      "word_count": 95,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0164"
+    },
+    {
+      "start": 9386.21,
+      "end": 9391.91,
+      "duration": 5.700000000000728,
+      "text": "Now, what could be a charitable reason why anyone would want cheat? Well, that would be the only thing that makes sense. But",
+      "word_count": 23,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0165"
+    },
+    {
+      "start": 9435.08,
+      "end": 9443.23,
+      "duration": 8.149999999999636,
+      "text": "Well, it doesn't make sense in any other way. I've tried to look at it. There's There's no argument that anybody's presented that makes any sense. Why?",
+      "word_count": 27,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0166"
+    },
+    {
+      "start": 9535.6,
+      "end": 9539.82,
+      "duration": 4.219999999999345,
+      "text": "one of the most bizarre and polarizing ideas that's promoted by the last But who",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0167"
+    },
+    {
+      "start": 9675.26,
+      "end": 9691.75,
+      "duration": 16.48999999999978,
+      "text": "they want to raise, the idea is you want to raise a taxes to the highest earners. But it really doesn't really mean that irons and billionaires are not paying their fair share. But doesn't work that way. But it's a narrative, right? And it's a narrative that appeals to people that are not doing well. And they're like, yeah, our problems are that these rich people are not paying taxes.",
+      "word_count": 71,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0168"
+    },
+    {
+      "start": 9761.53,
+      "end": 9773.27,
+      "duration": 11.739999999999782,
+      "text": "One of the things that I want to talk to you about is the JFK files. And one of the things that you said was that if they showed you what what they showed me, this was your quote, you wouldn't want people to know it either.",
+      "word_count": 47,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0169"
+    },
+    {
+      "start": 9825.57,
+      "end": 9828.84,
+      "duration": 3.2700000000004366,
+      "text": "didn't you open it up the first time? Because a lot of times the hesitation",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0170"
+    },
+    {
+      "start": 9867.05,
+      "end": 9881.05,
+      "duration": 14.0,
+      "text": "Well, the thing, what people look at it from the outside and and you sort of imagine what could be a reason why they would not release those files. It would be there's there's people that were implicated. That's why that assassination.",
+      "word_count": 42,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0171"
+    },
+    {
+      "start": 9926.53,
+      "end": 9930.72,
+      "duration": 4.18999999999869,
+      "text": "How much can you tell? So how's that work? Is it like super top secret? you. Tell me,",
+      "word_count": 18,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0172"
+    },
+    {
+      "start": 9961.56,
+      "end": 9971.4,
+      "duration": 9.840000000000146,
+      "text": "couple in here, Commander David Fraver. Yeah. I had him in that sighting in 2004, very, very compelling with visual video evidence, radar evidence.",
+      "word_count": 24,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0173"
+    },
+    {
+      "start": 10004.16,
+      "end": 10012.96,
+      "duration": 8.799999999999272,
+      "text": "shape. So when you were talking to these people, this something that you were compelled to have conversations about? Was this your personal",
+      "word_count": 23,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0174"
+    },
+    {
+      "start": 10033.67,
+      "end": 10037.92,
+      "duration": 4.25,
+      "text": "we... We probes there and rovers and I I don't think there's any life there.",
+      "word_count": 15,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0175"
+    },
+    {
+      "start": 10039.29,
+      "end": 10056.86,
+      "duration": 17.56999999999971,
+      "text": "there at one point in time. This is a speculation about Mars. Mars had an atmosphere at one point in time, long time ago that could support life. It also had large bodies of water, but we've had no evidence of even bacterial life that exists on Mars. these these universes not been a big thing",
+      "word_count": 56,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0176"
+    },
+    {
+      "start": 10067.22,
+      "end": 10076.52,
+      "duration": 9.300000000001091,
+      "text": "lot of the speculation too, that some of these drones that hover over battleships, that these are Chinese Chinese drones and and that they're not UFOs. They could There's some super sophisticated... But I did",
+      "word_count": 35,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0177"
+    },
+    {
+      "start": 10098.99,
+      "end": 10109.2,
+      "duration": 10.210000000000946,
+      "text": "Well, I mean, just the commander, David Fraver thing in 2004 off the coast of San Diego, they clocked that thing going from 50 ,000 feet above sea level to 50 in a second. They don't know what it",
+      "word_count": 39,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0178"
+    },
+    {
+      "start": 10110.33,
+      "end": 10133.45,
+      "duration": 23.1200000000008,
+      "text": "Yeah, they saw something in the water. It was hovering over that something that was making a disturbance in the water. They got video evidence of this thing. Two different fighter jets with pilots in them saw it. There's, you know, visual evidence, photographic evidence, video evidence, radar evidence. Whatever the hell it is, it moves in a way that would turn a human being in a jello if they're inside of it. The G -Force, no one would survive.",
+      "word_count": 80,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0179"
+    },
+    {
+      "start": 10135.21,
+      "end": 10139.39,
+      "duration": 4.180000000000291,
+      "text": "And we don't... It doesn't have a heat -nissed signature. They don't know what their propulsion system was.",
+      "word_count": 18,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0180"
+    },
+    {
+      "start": 10154.75,
+      "end": 10170.56,
+      "duration": 15.80999999999949,
+      "text": "amazing. but you got to imagine. But these things that these people are encountering are far superior to what we know of. Is it possible that there's some military or government program that you weren't, that they didn't tell you about?",
+      "word_count": 41,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0181"
+    },
+    {
+      "start": 10275.61,
+      "end": 10287.6,
+      "duration": 11.989999999999782,
+      "text": "What do you do differently and how do you change this course that it seems we are on for World War Three? How do you get us out of Ukraine? How How do you stop what's going on in the Middle East? How do you put a stop to this?",
+      "word_count": 50,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0182"
+    },
+    {
+      "start": 10505.98,
+      "end": 10546.64,
+      "duration": 40.659999999999854,
+      "text": "possible to apply that same thing to the electronics that we use? One of the things that disturbs me greatly is that all of our phones are are made overseas. then some of our phones are made in places like, yes, and the chips. And some of our phones are made in places like Foxconn, where they have nets around the building to keep people from jumping off the roof because because they have so many suicides. Like wouldn't it be better to have an American -made iPhone where you know people who are paid good wages, have health insurance, they're taken care of, they can live a good life, where you're not buying a piece of electronics that's cheaper because because someone has to suffer a horrible, in a horrible way that's not even legal in United States. It's not even legal to have them work that way in the United States so so they get these people to build them overseas.",
+      "word_count": 163,
+      "speaker": "Joe Rogan",
+      "window_id": "seg_0183"
+    }
+  ]
+}
