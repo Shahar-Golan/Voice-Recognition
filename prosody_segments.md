@@ -148,7 +148,11 @@ Goal: Use the M windows from Phase 1 + the mono WAV to create M segment WAV file
 -------------------------------------------------------------------------------
 PHASE 3 – Feature Extraction Per Segment WAV
 -------------------------------------------------------------------------------
-Goal: For each segment WAV file, compute prosodic features.
+Goal: For each segment WAV file, compute prosodic features, including:
+      1) pitch variability
+      2) amplitude dynamics
+      3) formant dispersion
+      4) pitch change rate
 
 [ ] Create script: `src/extract_features.py`
 
@@ -156,32 +160,93 @@ Goal: For each segment WAV file, compute prosodic features.
     - For each row in `segments_metadata.csv`:
         - Load the corresponding WAV file: `seg_XXXX.wav`
         - Compute basic features:
-            - duration (seconds) = len(y_seg) / sr
-            - pitch statistics:
-                * mean F0
-                * std F0
-            - RMS energy:
-                * mean RMS
-                * std RMS
-            - speaking rate (optional, using JSON info):
-                * words_per_second = (number_of_words_in_window) / duration
-            - pauses ratio (optional, later):
-                * proportion of silence vs voiced samples
+
+          (a) Duration
+              - duration_sec = len(y_seg) / sr
+
+          (b) Pitch contour and pitch-based features
+              - Extract F0 contour per frame inside the segment:
+                    F0 = [f1, f2, ..., fT]
+                (e.g., using librosa/praats-parselmouth)
+
+              - pitch_mean       = mean(F0)
+              - pitch_std        = std(F0)
+              - pitch_range      = max(F0) − min(F0)
+
+              - pitch_variability = pitch_std
+                (optionally you may also log pitch_range)
+
+              - pitch_change_rate:
+                    Δf_t = |f_t − f_(t−1)|  for t = 2..T
+                    pitch_change_rate = (1 / (T−1)) * Σ_t Δf_t
+
+          (c) Amplitude / energy features
+              - Compute RMS energy per frame: RMS = [r1, r2, ..., rT]
+
+              - rms_mean  = mean(RMS)
+              - rms_std   = std(RMS)
+              - rms_range = max(RMS) − min(RMS)
+
+              - amplitude_dynamics = rms_std
+                (optionally also store rms_range)
+
+          (d) Formant features (using e.g. Parselmouth/Praat)
+              - Estimate formants F1, F2, F3 per frame:
+                    F1[t], F2[t], F3[t]
+
+              - For each frame t:
+                    D12[t] = F2[t] − F1[t]
+                    D23[t] = F3[t] − F2[t]
+
+              - formant_dispersion_12_mean = mean(D12)
+              - formant_dispersion_23_mean = mean(D23)
+
+              - formant_dispersion = (formant_dispersion_12_mean
+                                      + formant_dispersion_23_mean) / 2
+                (or keep both D12 and D23 as separate columns)
+
+          (e) Speaking rate (optional, using JSON info)
+              - words_per_second = (number_of_words_in_window) / duration_sec
+
+          (f) Pauses ratio (optional)
+              - Estimate voiced vs unvoiced/silent frames
+              - pauses_ratio = (time_in_silence) / duration_sec
 
 [ ] Step 3.2 – Save raw feature table
-    - Create `data/features/segments_features_raw.csv` with columns:
+    - Create `data/features/segments_features_raw.csv` with columns, e.g.:
+
         - segment_id
-        - start_time, end_time, duration
-        - pitch_mean, pitch_std
-        - rms_mean, rms_std
-        - speaking_rate
+        - start_time, end_time, duration_sec
+
+        # Pitch-related
+        - pitch_mean
+        - pitch_std
+        - pitch_range
+        - pitch_variability       # usually = pitch_std
+        - pitch_change_rate
+
+        # Amplitude-related
+        - rms_mean
+        - rms_std
+        - rms_range
+        - amplitude_dynamics      # usually = rms_std
+
+        # Formant-related
+        - formant_dispersion_12_mean
+        - formant_dispersion_23_mean
+        - formant_dispersion
+
+        # Optional extras
+        - speaking_rate           # words_per_second
         - pauses_ratio
-        - (any other features you add later)
+
+        # (any other features you add later)
 
 -------------------------------------------------------------------------------
 PHASE 4 – Normalize Features & Compute Arousal Index
 -------------------------------------------------------------------------------
-Goal: Convert raw features into standardized scores and compute a single Arousal Index.
+Goal: Convert raw features into standardized scores and compute a single
+      Arousal Index based primarily on your prosodic features.
 
 [ ] Create script: `src/compute_arousal.py`
 
@@ -189,31 +254,52 @@ Goal: Convert raw features into standardized scores and compute a single Arousal
     - Read `data/features/segments_features_raw.csv` into pandas.
 
 [ ] Step 4.2 – Compute z-scores per feature
-    For each numeric feature X used in arousal:
+    For each numeric feature X that you want to use in arousal:
+
         z(X) = (X − μ_X) / σ_X
+
     - Compute μ_X and σ_X across all segments:
         μ_X = mean(X)
         σ_X = std(X)
-    - Create new columns:
-        z_pitch_mean
-        z_rms_mean
-        z_speaking_rate
-        z_pauses_ratio
+
+    - Create new columns, for example:
+        - z_pitch_variability
+        - z_amplitude_dynamics
+        - z_formant_dispersion
+        - z_pitch_change_rate
+        - z_pauses_ratio          (if you use pauses in the index)
 
 [ ] Step 4.3 – Define Arousal Index per segment
-    ArousalIndex = z_pitch_mean + z_rms_mean + z_speaking_rate − z_pauses_ratio
+
+    One reasonable initial definition:
+
+        ArousalIndex = z_pitch_variability
+                     + z_amplitude_dynamics
+                     + z_pitch_change_rate
+                     − z_pauses_ratio
 
     In formula form:
 
-        z(X) = (X - μ_X) / σ_X
+        z(X) = (X − μ_X) / σ_X
 
-        ArousalIndex = z(pitch_mean)
-                     + z(rms_mean)
-                     + z(speaking_rate)
+        ArousalIndex = z(pitch_variability)
+                     + z(amplitude_dynamics)
+                     + z(pitch_change_rate)
                      − z(pauses_ratio)
+
+    - formant_dispersion can be kept as an additional descriptor:
+        *z_formant_dispersion is stored and can be analyzed separately
+        or added later to ArousalIndex once you experiment with it.*
 
 [ ] Step 4.4 – Save with Arousal Index
     - Save to `data/features/segments_features_with_arousal.csv`
+      with all original columns plus:
+        - z_pitch_variability
+        - z_amplitude_dynamics
+        - z_formant_dispersion
+        - z_pitch_change_rate
+        - z_pauses_ratio
+        - arousal_index
 
 -------------------------------------------------------------------------------
 PHASE 5 – Label Heated vs Non-Heated Segments

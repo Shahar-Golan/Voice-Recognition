@@ -31,3 +31,27 @@ Donald Trump    112.3      27337    243    3079
 Joe Rogan       42.8       9323     218    836
 ----------------------------------------------------------------------
 TOTAL           155.1      36660    236    3915
+
+Goal: For each segment WAV file, compute prosodic features, including:
+      1) pitch variability
+      2) amplitude dynamics
+      3) formant dispersion
+      4) pitch change rate
+
+1. Pitch variability - describes how much the pitch (fundamental frequency, F0) fluctuates inside a segment.
+    F0 = a vector (sequence) of pitch values across the whole segment (K frames in a segment)
+    F0 = how fast the vocal folds vibrate
+    pitch_variability=std(F0)
+
+2. Amplitude Dynamics -capture how much the loudness (energy) changes within a segment
+    RMS = how strong the sound wave is. Shouting: high RMS
+    Energy variability = std(RMS)
+
+3. Formant Dispersion - describes the spacing between formants.
+    about how far apart the formants are from each other.
+
+
+4. Pitch change rate - measures how fast pitch moves from one frame to the next.
+    captures dynamism and instability in pitch.
+    High pitch change rate → nervousness, agitation, emphasis, emotional activation
+    Low rate → controlled and stable speaking
