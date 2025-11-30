@@ -143,11 +143,13 @@ podcast_analysis/data/
 *.jpeg
 *.csv
 
-# Keep important analysis results - explicitly include JSON outputs
+# Keep important analysis results - explicitly include JSON outputs and segments
 !podcast_analysis/outputs/
 !podcast_analysis/outputs/**
 !podcast_analysis/src/
 !podcast_analysis/src/**
+!podcast_analysis/data/segments/
+!podcast_analysis/data/segments/**
 
 # Model files and caches
 *.pkl
